@@ -131,6 +131,10 @@ let g:NERDCommentEmptyLines = 1
 let g:NERDTrimTrailingWhitespace = 1
 
 nmap <C-/> <leader>c<Space>
+
+" YCM
+let g:ycm_server_keep_logfiles = 1
+let g:ycm_server_log_level = 'debug'
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "
